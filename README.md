@@ -1,28 +1,27 @@
-# 🎬 Movie Booking System (Oracle SQL / PL-SQL Project)
+# Movie Booking System (Oracle SQL / PL-SQL Project)
 
-## 📌 Overview
+## Overview
 This project is a **Movie Booking System** implemented using **Oracle SQL and PL/SQL**. It simulates a real-world cinema booking platform where users can browse movies, book tickets, cancel bookings, and view show details.
 
 The system includes **database design, relationships, stored procedures, and functions**, making it a complete DBMS-based project.
 
----
 
-## 🚀 Features
-- 🔐 User Login & Account Creation
-- 🎥 View Available Movies
-- 🔍 Search Movies (case-insensitive)
-- 🕒 View Show Dates & Timings
-- 🎟️ Book Tickets
-- ❌ Cancel Tickets
-- 📄 View Booking Details
-- ⭐ Feedback System
-- 🎭 View Actors for a Movie
 
----
+## Features
+-  User Login & Account Creation
+-  View Available Movies
+-  Search Movies (case-insensitive)
+-  View Show Dates & Timings
+-  Book Tickets
+-  Cancel Tickets
+-  View Booking Details
+-  Feedback System
+-  View Actors for a Movie
 
-## 🏗️ Database Design
 
-### 📊 Tables Used
+##  Database Design
+
+### Tables Used
 - `tbl_customer` → Stores user details  
 - `tbl_movie` → Movie information  
 - `tbl_theatre` → Theatre details  
@@ -32,15 +31,15 @@ The system includes **database design, relationships, stored procedures, and fun
 - `tbl_actor` → Actor details  
 - `tbl_movie_actor` → Many-to-many relationship  
 
----
 
-## ⚙️ Functional Modules
 
-### 🔹 Functions
+##  Functional Modules
+
+###  Functions
 - `login()` → Authenticates user  
 - `create_account()` → Registers new user  
 
-### 🔹 Procedures
+###  Procedures
 - `show_films()` → Display all movies  
 - `search_movie()` → Search by title  
 - `show_dates_timings()` → Show schedules  
@@ -51,9 +50,9 @@ The system includes **database design, relationships, stored procedures, and fun
 - `print_ticket_details()` → Ticket info  
 - `show_bookings_for_customer()` → Booking history  
 
----
 
-## 💾 Sample Data
+
+##  Sample Data
 The system includes pre-inserted data for:
 - Customers  
 - Movies (e.g., Inception, The Dark Knight)  
@@ -61,9 +60,8 @@ The system includes pre-inserted data for:
 - Tickets  
 - Actors  
 
----
 
-## ▶️ How to Run
+##  How to Run
 
 1. Open an Oracle SQL environment (like SQL*Plus / freesql.org)
 2. Copy and paste the SQL file
@@ -72,48 +70,38 @@ The system includes pre-inserted data for:
    - Insert data
    - Create procedures & functions
 
----
 
-## 🧪 Testing
+
+##  Testing
 Example test blocks are included in the file (commented).  
 Uncomment and run them one at a time to test functionality.
 
----
 
-## 🛠️ Technologies Used
+
+##  Technologies Used
 - Oracle SQL  
 - PL/SQL  
 - Relational Database Design  
 
----
 
-## 📚 Learning Outcomes
+
+##  Learning Outcomes
 - Database schema design  
 - Primary & foreign key relationships  
 - PL/SQL procedures & functions  
 - Transaction handling (COMMIT / ROLLBACK)  
 - Real-world system simulation  
 
----
 
-## 🔮 Future Improvements
+
+##  Future Improvements
 - Web-based frontend (React / HTML)  
 - Payment integration  
 - Seat selection UI  
 - Admin dashboard  
 
----
 
-## 👩‍💻 Author
+
+##  Author
 **Mehar Arora**  
-Third Year Engineering Student  
-
----
-
-## ⭐ Note
-This project demonstrates a complete backend system for a movie booking platform using Oracle SQL and PL/SQL.
-
----
-
-## 📎 Source Code
-Main SQL file: Movie_Booking_System.sql
+  
